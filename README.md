@@ -7,3 +7,9 @@
 1.  Turn on & have a Smokey Incident (tm).
 1.  ???
 1.  PROFIT!
+
+##  Renaming
+If you'd like your config to live in a different folder, you have 2 routes:
+
+1.  Rename the repo directory and update the second #include in 'printer.cfg:  `[include <renamed-directory>/includes.cfg]`
+2.  Delete the symlink; Flatten the repo folder so all the configs are in the root config directory and update the second #include in 'printer.cfg:  `[include includes.cfg]`
